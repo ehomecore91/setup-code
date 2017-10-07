@@ -106,8 +106,8 @@ function used_data(){
 	echo -e "\e[38;5;198m[14]\e[38;5;82m Unbanned Akun™"
 	echo -e "\e[38;5;198m[15]\e[38;5;82m Mengunci Akun SSH & OpenVPN™"
 	echo -e "\e[38;5;198m[16]\e[38;5;82m Unlock Account SSH & OpenVPN™"
-	echo -e "\e[38;5;198m[17]\e[38;5;82m Melihat daftar user yang terkick oleh perintah user-limit™"
-	echo -e "\e[38;5;198m[18]\e[38;5;82m Melihat daftar user yang terbanned oleh perintah user-ban™"
+	echo -e "\e[38;5;198m[17]\e[38;5;82m Melihat daftar user yang terkick™"
+	echo -e "\e[38;5;198m[18]\e[38;5;82m Melihat daftar user yang terbanned™"
 	echo -e "\e[38;5;198m[19]\e[38;5;82m Buat Akun PPTP VPN™"
 	echo -e "\e[38;5;198m[20]\e[38;5;82m Hapus Akun PPTP VPN™"
 	echo -e "\e[38;5;198m[21]\e[38;5;82m Lihat Detail Akun PPTP VPN™ "
@@ -126,7 +126,7 @@ function used_data(){
 	echo -e "\e[38;5;198m[34]\e[38;5;82m Reboot Server™ "
 	echo -e "\e[38;5;198m[35]\e[38;5;82m Log Install™"
 	echo -e "\e[38;5;198m[36]\e[38;5;82m diagnosa™"
-	echo -e "\e[38;5;198m[37]\e[38;5;82m x\e[0m0 Exit™"
+	echo -e "\e[38;5;198m[37]\e[38;5;82m[X]\e[0m Exit™"
         echo -e "\e[38;5;198m script By @OrangKuatSabahanterkini "
 	read -p "Masukkan pilihan anda, kemudian tekan tombol ENTER: " option1
 	case $option1 in
